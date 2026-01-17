@@ -1,0 +1,9 @@
+source 'https://rubygems.org'
+
+gem 'jekyll', '~> 4.3'
+gem 'jekyll-sitemap'
+gem 'jekyll-feed'
+gem 'csv'
+gem 'base64'
+gem 'bigdecimal'
+gem 'webrick'
