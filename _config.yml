@@ -6,7 +6,9 @@ title: PEARL Labs
 email: pearl@smu.edu.sg
 description: "Welcome to PEARL Labs - Pioneering Experiential and Augmented Reality Lab at SMU"
 
-
+layout: page
+title: "PEARL Labs"
+permalink: /pearl-labs/
 # Team names, titles and social links
 people:
 - name: Kay Garland

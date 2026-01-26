@@ -1,8 +1,5 @@
-<!-- Navigation -->
-    <!-- Navigation -->
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
@@ -12,55 +9,31 @@
             </button>
             <a class="navbar-brand page-scroll" href="#page-top">
                 <div class="brand-container">
-                    <img src="/img/PEARL_Logo.png" alt="PEARL Lab Logo" class="navbar-logo">
-                    <div class="brand-subtitle">Singapore Management University</div>
+                    <img src="{{ site.baseurl }}/img/PEARL_Logo.png" alt="PEARL Lab Logo" class="navbar-logo">
+                    <span class="brand-text">PEARL LABS</span>
                 </div>
             </a>
         </div>
 
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden"><a href="#page-top"></a></li>
+                <li><a class="page-scroll" href="#Home">Home</a></li>
+                <li><a class="page-scroll" href="#recentnews">Recent News</a></li>
+                <li><a class="page-scroll" href="#Currentresearch">Research</a></li>
+                <li><a class="page-scroll" href="#team">Team</a></li>
+                <li><a class="page-scroll" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div> </nav>
+
+<header>
+    <div class="container">
+        <div class="intro-text">
+            <img src="{{ site.baseurl }}/img/PEARL_Logo.png" alt="PEARL Lab" style="height: 150px; margin-bottom: 20px;">
             
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#Home">Home</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#recentnews">Recent News</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#Currentresearch">Current Research</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">Team</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+            <div class="university-text">Singapore Management University</div>
+            <div class="intro-lead-in">Welcome To PEARL Labs!</div>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Welcome To PEARL Labs!</div>
-                <!-- <div class="intro-heading">It's Nice To Meet You</div> -->
-                <!-- <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a> -->
-            </div>
-        </div>
-    </header>
-<!--
-        {% for page in site.pages %}
-          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-        {% endfor %}
- -->
-
+    </div>
+</header>
