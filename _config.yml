@@ -11,7 +11,7 @@ title: "PEARL Labs"
 permalink: /pearl-labs/
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Prof. Thivya Kandappu
   pic: 1
   position: Lead Designer
   social:
@@ -22,7 +22,7 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
+- name: Gevindu Ganganath
   pic: 2
   position: Lead Marketer
   social:
@@ -33,7 +33,7 @@ people:
     - title: linkedin
       url: #
 
-- name: Diana Petersen
+- name: Pasindu Manodara
   pic: 3
   position: Lead Developer
   social:
