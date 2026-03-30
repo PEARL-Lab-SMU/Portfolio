@@ -1,4 +1,4 @@
---- # This empty front matter tells Jekyll to process Liquid tags in this file ---
+--- ---
 /*!
  * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -250,14 +250,13 @@ background-color: #fff;
 }
 
 .navbar-default {
+    border-color: transparent;
     background-color: transparent;
-    /* Remove the solid #222 */
-    border: none;
 }
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
-    color: #{{ site.data.template.color.primary}
+    color: #{{ site.data.template.color.primary }
 }
 
 ;
@@ -345,10 +344,6 @@ background-color: #{{ site.data.template.color.primary }
 ;
 }
 
-.navbar-default.navbar-shrink {
-    background-color: #222;
-}
-
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -371,6 +366,7 @@ background-color: #{{ site.data.template.color.primary }
     }
 
     .navbar-default.navbar-shrink {
+        padding: 10px 0;
         background-color: #222;
     }
 
@@ -381,18 +377,15 @@ background-color: #{{ site.data.template.color.primary }
 
 .brand-container {
     display: flex;
-    /* Aligns items in a row */
+    flex-direction: row;
     align-items: center;
-    /* Centers logo and text vertically */
-    text-decoration: none;
+    text-align: center;
 }
 
 .navbar-logo {
     height: 50px;
-    /* Adjust based on your preference */
     width: auto;
     margin-right: 12px;
-    /* Creates the gap between logo and text */
 }
 
 .brand-text {
@@ -406,7 +399,6 @@ background-color: #{{ site.data.template.color.primary }
     font-size: 20px;
     font-weight: 700;
     color: white;
-    /* Change to match your theme */
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -424,8 +416,6 @@ background-color: #{{ site.data.template.color.primary }
     padding: 5px 15px;
 }
 
-
-
 header {
     text-align: center;
     color: #fff;
@@ -439,12 +429,10 @@ header {
     background-size: cover;
     -o-background-size: cover;
     padding-top: 80px;
-    /* Add this - creates space for fixed navbar */
 }
 
 header .intro-text {
     padding-top: 20px;
-    /* Reduced from 100px */
     padding-bottom: 50px;
 }
 
@@ -457,15 +445,12 @@ header .intro-text .university-text {
 
     ;
     font-size: 15px;
-    /* Matches intro-lead-in mobile size */
     font-style: italic;
-    /* This is the key "style" difference */
     line-height: 15px;
     font-weight: normal;
     margin-bottom: 25px;
     padding-top: 10px;
     text-transform: none;
-    /* Ensures it's not forced to All-Caps */
 }
 
 header .intro-text .intro-lead-in {
@@ -502,13 +487,11 @@ header .intro-text .intro-heading {
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 50px;
-        /* Reduced from 300px */
         padding-bottom: 200px;
     }
 
     header .intro-text .university-text {
         font-size: 30px;
-        /* Matches intro-lead-in desktop size */
         line-height: 40px;
         margin-bottom: 25px;
     }
@@ -604,7 +587,6 @@ section h3.section-subheading {
     transition: all ease .5s;
     background: rgba(254, 209, 54, .9);
 
-    /* Fallback when no plugin support */
     background: rgba({
             {
             site.data.template.color.primary | hex_to_rgb | join: ','
@@ -1004,7 +986,6 @@ footer {
 }
 
 footer span.copyright {
-    text-transform: uppercase;
     text-transform: none;
 
     font-family: {
@@ -1019,7 +1000,6 @@ footer span.copyright {
 
 footer ul.quicklinks {
     margin-bottom: 0;
-    text-transform: uppercase;
     text-transform: none;
 
     font-family: {
