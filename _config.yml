@@ -1,14 +1,11 @@
-url: https://pearl-lab-smu.github.io/Portfolio/
-baseurl: ""
+url: "https://pearl-lab-smu.github.io"
+baseurl: "/Portfolio"
 
 # Site settings
 title: PEARL Labs
 email: pearl@smu.edu.sg
 description: "Welcome to PEARL Labs - Pioneering Experiential and Augmented Reality Lab at SMU"
 
-layout: page
-title: "PEARL Labs"
-permalink: /pearl-labs/
 # Team names, titles and social links
 people:
 - name: Prof. Thivya Kandappu
@@ -44,7 +41,7 @@ people:
     - title: google-plus
       url: #
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Social networks usernames
 social:
   - title: twitter
     url: http://twitter.com/jekyllrb
@@ -57,7 +54,7 @@ social:
   - title: github
     url: http://github.com/jekyll
 
-# Postal address (add as many lines as necessary)
+# Postal address
 address:
   - line: 3481 Melrose Place
   - line: Beverly Hills, CA 90210
